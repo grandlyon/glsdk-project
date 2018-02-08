@@ -1,0 +1,12 @@
+[submodule "glsdk-server"]
+	path = server
+	url = git@github.com:grandlyon/glsdk-server.git
+	branch = master
+[submodule "glsdk-client"]
+	path = webapp
+	url = git@github.com:grandlyon/glsdk-client.git
+	branch = master
+[submodule "glsdk-proxy"]
+	path = proxy
+	url = git@github.com:grandlyon/glsdk-proxy.git
+	branch = master
