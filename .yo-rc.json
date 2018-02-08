@@ -1,0 +1,23 @@
+{
+  "generator-fireloop": {
+    "version": "1.0.0-beta.2.7",
+    "clients": {
+      "fireloop": {
+        "path": "./server",
+        "type": "server"
+      },
+      "webapp": {
+        "path": "./webapp",
+        "type": "ng2web",
+        "name": "webapp",
+        "sdkPath": "webapp/src/app/shared/sdk"
+      }
+    },
+    "promptValues": {
+      "sdkFeatures": [
+        "Generate ONLY FireLoop SDK + Auth Services",
+        "Enable NGRX functionality"
+      ]
+    }
+  }
+}
