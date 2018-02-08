@@ -7,10 +7,6 @@
     "install": "npm run install-server && npm run install-webapp",
     "start-loopback": "cd loopback/ && npm start",
     "start-webapp": "cd webapp/ && npm start",
-    "init-server-subtree": "git subtree add --prefix server git@github.com:grandlyon/glsdk-server.git master",
-    "init-webapp-subtree": "git subtree add --prefix webapp git@github.com:grandlyon/glsdk-client.git master",
-    "init-proxy-subtree": "git subtree add --prefix proxy git@github.com:grandlyon/glsdk-proxy.git master",
-    "init-subtrees": "npm run init-server-subtree && npm run init-webapp-subtree && npm run init-proxy-subtree",
     "fireloop": "fireloop"
   },
   "keywords": [
