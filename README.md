@@ -33,11 +33,6 @@ Quickstart
  * [Starting] with the SDK. 
 
 
-
-License
-------------
-MIT
-
 [NodeJS]: http://nodejs.org
 [FireLoop]: http://fireloop.io
 [Angular]: http://angular.io
