@@ -6,6 +6,7 @@ GrandLyon Starter Kit Developpement is an application build with these framework
  - Module server : [NodeJS] application with [LoopBack] framework
  - Module client : [Angular] application and [FireLoop] framework for connexion to module server
 
+![architecture](doc/architecture.png)
 
 Install
 ------------
@@ -28,7 +29,9 @@ npm run start-webapp
 Quickstart 
 ------------
 
-See this [quickstart]. 
+ * [Setup] new project from this SDK.
+ * [Starting] with the SDK. 
+
 
 
 License
@@ -40,4 +43,5 @@ MIT
 [Angular]: http://angular.io
 [LoopBack]: http://loopback.io
 [TypeScript]: https://www.typescriptlang.org
-[quickstart]: QUICKSTART.md
+[Setup]: SETUP.md
+[Starting]: QUICKSTART.md
