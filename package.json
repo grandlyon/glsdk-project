@@ -6,7 +6,7 @@
     "install-server": "cd server/ && npm install",
     "install-webapp": "cd webapp/ && npm install",
     "install": "npm run install-server && npm run install-webapp",
-    "start-server": "cd server/ && AUTH_DB_PORT=3307 npm start",
+    "start-server": "cd server/ && APP_DB_PORT=3307 npm start",
     "start-webapp": "cd webapp/ && npm start",
     "fireloop": "fireloop"
   },
