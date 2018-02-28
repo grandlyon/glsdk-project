@@ -62,6 +62,17 @@ Add section on ```src/app/app.routing.module.ts```
   },
 ```
 
+ * Add link on menu
+ 
+Add section on ```src/app/components/menu/menu.component.html```
+```html
+  <mat-list-item routerLink="/mymodels" routerLinkActive="active">
+    <mat-icon mat-list-icon>person</mat-icon> 
+    <!-- Icon List available https://material.io/icons/ -->
+    <a mat-line i18n="@@nav.mymodels">MyModel</a>
+  </mat-list-item>
+```
+
 
 ## 4. Client Samples
  * Component List ( with datasources, tests) 
